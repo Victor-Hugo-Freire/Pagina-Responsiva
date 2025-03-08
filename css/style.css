@@ -125,4 +125,5 @@ a {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-columns-gap: 10px;
 }
