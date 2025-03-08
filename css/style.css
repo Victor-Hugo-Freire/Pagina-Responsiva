@@ -125,5 +125,23 @@ a {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-columns-gap: 10px;
+  grid-column-gap: 30px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  background: #333;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#product {
+  width: 100%;
+  padding: 50px;
 }
